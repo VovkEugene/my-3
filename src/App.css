@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+section h1 span {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+.gradient-text {
+  background-clip: text;
+  @apply bg-gradient-to-t from-red-200 to-cyan-500 text-transparent;
+}
