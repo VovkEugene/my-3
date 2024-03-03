@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import AdditionalSkills from "./components/AdditionalSkills";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -17,6 +18,7 @@ function App() {
         <AdditionalSkills />
         <AboutMe />
       </main>
+      <Footer />
     </>
   );
 }
