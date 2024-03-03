@@ -5,7 +5,7 @@ import project4 from "../assets/projects/05.jpg";
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <div className="container m-auto px-4">
         <h2 className="text-2xl font-semibold">Projects</h2>
         <div className="flex flex-col sm:flex-row gap-10 mt-11">

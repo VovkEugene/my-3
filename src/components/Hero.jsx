@@ -4,7 +4,7 @@ import heroBg from "../assets/hero/02.jpg";
 const Hero = () => {
   return (
     <section>
-      <div className="container m-auto mb-10 px-4 py-10 flex justify-center gap-10">
+      <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col justify-center items-center sm:flex-row gap-10 text-center sm:text-left">
         <div>
           <h1 className="font-bold text-4xl mb-1">
             Hello, I'm
@@ -14,8 +14,8 @@ const Hero = () => {
             </span>
             ,
           </h1>
-          <h2 className="font-bold text-4xl mb-4 gradient-text">
-            frontend developer.
+          <h2 className="font-bold text-4xl mb-4 gradient-text running-text">
+            frontend developer
           </h2>
           <p className="text-gray-400">
             And I'll get your business onlive the right way.
@@ -33,12 +33,12 @@ const Hero = () => {
             alt="Hero image"
             className="relative z-10 rounded-xl"
           />
-          <img
+          {/* <img
             src={heroBg}
             width={320}
             alt="Hero image"
             className="absolute top-10 left-12 z-0 rounded-xl"
-          />
+          /> */}
         </div>
       </div>
     </section>

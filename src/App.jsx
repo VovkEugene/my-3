@@ -9,9 +9,9 @@ import Technologies from "./components/Technologies";
 
 function App() {
   return (
-    <>
+    <div className="max-w-4xl m-auto relative">
       <Header />
-      <main>
+      <main className="relative mt-28">
         <Hero />
         <Projects />
         <Technologies />
@@ -19,7 +19,7 @@ function App() {
         <AboutMe />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

@@ -1,8 +1,8 @@
 const Header = () => {
   return (
-    <header>
-      <div className="container m-auto px-4 py-6">
-        <div className="flex justify-between items-center">
+    <header className="fixed left-0 right-0 top-0 z-20" id="home">
+      <div className="container m-auto px-4 py-6 max-w-4xl bg-black">
+        <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
           <div className="logo">
             <h1 className="font-bold text-xl">
               <a href="#">Eugene Portfolio</a>

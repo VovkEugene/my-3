@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000;
   color: #fff;
@@ -13,4 +17,26 @@ section h1 span {
 .gradient-text {
   background-clip: text;
   @apply bg-gradient-to-t from-red-200 to-cyan-500 text-transparent;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  animation: typing-text steps(40) 5s infinite, blink ease 0.3s infinite;
+  text-wrap: nowrap;
+  display: inline-block;
+  width: max-content;
+  width: 0;
+}
+
+@keyframes typing-text {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 350px;
+  }
+}
+
+@keyframes typing-text {
+  to {
+    border-color: transparent;
+  }
 }
